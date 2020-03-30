@@ -18,12 +18,11 @@
       5. dengan menggunakan spark-chell, saya dapat melakukan read dan write pada HDFS. untuk mengakses HDFS perlu mengubah dengan
          perintah : spark.read.json("hdfs://<Hadoop's default FS/<Directory>/<file.json>")
          
-   - big data dalam e-commerce mempunyai peran penting untuk menganalisis konsumen, operasional, potensi pasar, hingga inovasi produk.
+   - big data dalam e-commerce untuk menganalisis konsumen, operasional, potensi pasar, hingga inovasi produk.
      analisis data ini memberikan framework secara keseluruhan mengenai profil konsumen dan potensi yang dapat digali sebagai strategi
      pengembangan bisnis. salah satu implementasinya, data konsumen dikumpulkan dari interaksi mereka di dalam website bukalapak yang
      kemudian dianalisis untuk memaksimalkan strategi konversi penjualan. pengolahan data ini dapat meningkatkan efisiensi, profit, dan
      loyalitas konsumen.
-     
      dengan big data kita dapat meningkatkan pengalaman belanja konsumen dengan memberikan pengalaman belanja yang memuaskan.
      contohnya, saat konsumen mengunjungi sebuah website bukalapak, mereka tidak hanya berniat untuk langsung berbelanja, tapi juga
      mencari-cariwawasan informasi pada produk apa yang kira-kira mereka butuhkan. daengan data, bukalapak dapat memberikan rekomendasi
