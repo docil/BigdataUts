@@ -5,11 +5,4 @@
 2. Carilah contoh masalah big data yang bisa dikelola menggunakan salah satu DBMS tersebut.
    jelaskan mulai dari instalasi sampai CRUD untuk data menggunakan DBMS tersebut.
    Asumsikan anda akan memecahkan masalah big data yang sudah anda cari contoh tadi.
-   jelaskan kira-kira bagaimana arsitektur dari solusi big data menggunakan DBMS tersebut, gambarkan diagramnya.
-
-> soal memungkinkan untuk dijawab berbeda-beda antara satu mahasiswa dengan mahasiswa lainnya. jawaban yang sama akan mendapatkan
-  nilai 0. setelah selesai mengerjakan dalam repo anda, isikan form berikut:  
-
-> https://docs.google.com/forms/d/e/1FAIpQLSdq1-MvHXtFDuCzhoAACLkR_OC7Rk315Pm3NencbtLGc0QNlw/viewform
-
-> terakhir pengiriman di GoogleForm: senin 30 maret 2020 jam 23:59
+   jelaskan kira-kira bagaimana arsitektur dari solusi big data menggunakan DBMS tersebut.
