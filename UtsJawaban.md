@@ -1,3 +1,5 @@
+Brillian David Maulan Akhsan (135410104)
+
 1. - Cassandra DBMS
    - Mongo DB
    - HBase
