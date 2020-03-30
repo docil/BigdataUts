@@ -1,4 +1,4 @@
-1. - Cassandra
+1. - Cassandra DBMS
    - Mongo DB
    - HBase
 
@@ -32,4 +32,7 @@
      ketika ada promosi belanja online seperti 11/11 atau harbolnas (Hari Belanja Online Nasional), bukalapak dapat melakukan
      personalisasi dengan memberikan diskon-diskon yang relevan bagi konsumen terdaftar.
      
-   - 
+   - arsitektur DBMS pada cassandra. yaitu, cassandra memiliki peer-to-peer sistem terdistribusi di seluruh node, dan data
+     didistribusikan di antara semua node dalam sebuah cluster. semua node dalam sebuah cluster memainkan peran yang sama.
+     setiap node independen dan pada saat yang sama saling berhubungan ke node lain.salam sebuah cluster dapat menerima
+     membaca dan menulis permintaan, entah mana data sebenarnya terletak di cluster.
