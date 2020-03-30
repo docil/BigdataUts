@@ -34,6 +34,9 @@
      
    - arsitektur DBMS pada cassandra. yaitu, cassandra memiliki peer-to-peer sistem terdistribusi di seluruh node, dan data
      didistribusikan di antara semua node dalam sebuah cluster. semua node dalam sebuah cluster memainkan peran yang sama.
-     setiap node independen dan pada saat yang sama saling berhubungan ke node lain alam sebuah cluster dapat menerima
-     membaca dan menulis permintaan, entah mana data sebenarnya terletak di cluster. ketika sebuah node performanya turun, read/write
-     dapat dilakukan dari node lain dalam jaringan. Replikasi data di Cassandra disebut dengan istilah Gossip Protocol dimana satu atau lebih node dalam sebuah Cluster sebagai replika untuk bagian tertentu dari data. Jika terdeteksi bahwa beberapa node datanya out of date, Cassandra akan mengembalikan nilai terbaru untuk klien. Setelah mendapatkan nilai kembalian terbaru, Cassandra melakukan perbaikan membaca di latar belakang untuk memperbarui nilai-nilai yang out of date.
+     setiap node independen dan pada saat yang sama saling berhubungan ke node lain dapat menerima membaca dan menulis permintaan, entah
+     dimana letak data di cluster. ketika sebuah node performanya turun, read/write dapat dilakukan dari node lain dalam jaringan.
+     replikasi data di Cassandra disebut dengan istilah Gossip Protocol dimana satu atau lebih node dalam sebuah Cluster sebagai replika
+     untuk bagian tertentu dari data. jika terdeteksi bahwa beberapa node datanya out of date, Cassandra akan mengembalikan nilai terbaru
+     untuk klien. setelah mendapatkan nilai kembalian terbaru, cassandra melakukan perbaikan membaca di latar belakang untuk memperbarui
+     nilai-nilai yang out of date.
