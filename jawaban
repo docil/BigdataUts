@@ -1,3 +1,20 @@
-1. - Apache Hadoop
-   - 
-   - 
+1. - Cassandra
+   - Mongo DB
+   - HBase
+
+
+2. - contoh masalah big data yang digunakan untuk mengelola data pada customer bukalapak untuk keperluan analisis dengan menggunakan
+     sofware Apache Spark sebagai engine untuk memproses data dalam sekala besar meliputi Big Data dan Machine Learning. lalu
+     menggunakan Cassandra untuk menajemen database berbasis NoSQL.
+   
+   - cara instalasi nya yaitu :
+      1. download filenya di https://spark.apache.org/downloads.html
+      2. setelah berhasil didownload, lalu ekstrak file spark yang sudah didownload tadi ke "C:/".
+      3. setting variabel untuk spark agar terintregasi dengan windows dengan cara buka My Computer -> Klik kanan -> Properties ->
+         advanced system settings -> environment variables. Klik New untuk membuat variabel baru.
+         buat variabel baru bernama SPARK_HOME lalu arahkan ke root instalasi pada lokasi spark yg telah saya install.
+         kemudian menambahkan spark ke variabel PATH : cari variabel Path lalu klik edit tambahkan "%SPARK_HOME%\bin".
+      4. menjalankan spark shell : cari spark-shell lalu run as administrator.
+      5. dengan menggunakan spark-chell, saya dapat melakukan read dan write pada HDFS. untuk mengakses HDFS perlu mengubah dengan
+         perintah : spark.read.json("hdfs://<Hadoop's default FS/<Directory>/<file.json>")
+         
