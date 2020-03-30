@@ -5,7 +5,7 @@
 
 2. - contoh masalah big data yang digunakan untuk mengelola data pada customer bukalapak untuk keperluan analisis dengan menggunakan
      sofware Apache Spark sebagai engine untuk memproses data dalam sekala besar meliputi Big Data dan Machine Learning. lalu
-     menggunakan Cassandra untuk menajemen database berbasis NoSQL.
+     menggunakan Cassandra untuk manajemen database berbasis NoSQL.
    
    - cara instalasi nya yaitu :
       1. download filenya di https://spark.apache.org/downloads.html
@@ -18,3 +18,19 @@
       5. dengan menggunakan spark-chell, saya dapat melakukan read dan write pada HDFS. untuk mengakses HDFS perlu mengubah dengan
          perintah : spark.read.json("hdfs://<Hadoop's default FS/<Directory>/<file.json>")
          
+   - big data dalam e-commerce mempunyai peran penting untuk menganalisis konsumen, operasional, potensi pasar, hingga inovasi produk.
+     analisis data ini memberikan framework secara keseluruhan mengenai profil konsumen dan potensi yang dapat digali sebagai strategi
+     pengembangan bisnis. salah satu implementasinya, data konsumen dikumpulkan dari interaksi mereka di dalam website bukalapak yang
+     kemudian dianalisis untuk memaksimalkan strategi konversi penjualan. pengolahan data ini dapat meningkatkan efisiensi, profit, dan
+     loyalitas konsumen.
+     
+     dengan big data kita dapat meningkatkan pengalaman belanja konsumen dengan memberikan pengalaman belanja yang memuaskan.
+     contohnya, saat konsumen mengunjungi sebuah website bukalapak, mereka tidak hanya berniat untuk langsung berbelanja, tapi juga
+     mencari-cariwawasan informasi pada produk apa yang kira-kira mereka butuhkan. daengan data, bukalapak dapat memberikan rekomendasi
+     produk yang sesuai dengan minat konsumen berdasarkan histori pencariannya yang tersimpan pada database di bukalapak.
+     data yang terkumpul di dalam database bukalapak juga bisa memberikan strategi promosi yang lebih baik dengan melakukan
+     personalisasi belanja. misal data histori konsumen yang sudah terdaftar dianalisis kategori produk apa yang paling diminati.
+     ketika ada promosi belanja online seperti 11/11 atau harbolnas (Hari Belanja Online Nasional), bukalapak dapat melakukan
+     personalisasi dengan memberikan diskon-diskon yang relevan bagi konsumen terdaftar.
+     
+   - 
